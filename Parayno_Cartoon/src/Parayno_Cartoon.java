@@ -30,6 +30,7 @@ public class Parayno_Cartoon extends JFrame
     //@Override
     public void paint(Graphics g)
     {
+        //Initalization
         Graphics2D g2d = (Graphics2D)g;
         GeneralPath aura = new GeneralPath();
         GeneralPath rGreenHair = new GeneralPath();
@@ -51,7 +52,7 @@ public class Parayno_Cartoon extends JFrame
         GeneralPath rHand = new GeneralPath();
         GeneralPath lHand = new GeneralPath();
         GeneralPath rWPN = new GeneralPath();
-        GeneralPath lWPN = new GeneralPath();
+        GeneralPath lWPN = new GeneralPath(); 
         GeneralPath lWPNg = new GeneralPath();
         GeneralPath line = new GeneralPath();
         GeneralPath line2 = new GeneralPath();
@@ -920,10 +921,7 @@ public class Parayno_Cartoon extends JFrame
             
             g2d.setColor(new Color(253,253,253));
             g2d.fillOval(371,151,19,23);
-
             
-            //g2d.setColor(new Color(198,129,92));
-            //g2d.setColor(new Color(120,85,47));
             g2d.setColor(new Color(255, 91,0));
             g2d.fill(rIris);
 
