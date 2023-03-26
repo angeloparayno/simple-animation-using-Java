@@ -342,12 +342,12 @@ public class Parayno_Cartoon extends JFrame
         g2d.draw(lDGreen);
         
         //LEFT GREEN
-        lGreen.moveTo(482,480);                                     //lGreen OVERLAP
+        lGreen.moveTo(482,480);                       //lGreen OVERLAP
         lGreen.curveTo(482,467,481,456,487,445);      //lDGreen OVERLAP-lGreen OVERLAP
         lGreen.quadTo(562,433,624,407); 
         lGreen.curveTo(627,401,637,400,654,413);      //lHand OVERLAP
         lGreen.curveTo(757,426,780,435,791,442);      //IMAGINARY DOTS
-        lGreen.quadTo(810,464,817,480);                     //lHand OVERLAP
+        lGreen.quadTo(810,464,817,480);               //lHand OVERLAP
         lGreen.closePath();
        
         g2d.setColor(new Color(94,197,80));
@@ -796,20 +796,18 @@ public class Parayno_Cartoon extends JFrame
                 }
                 while(i < 5);
         
-            Thread.sleep(400L);
-
-            // Reset (no animation/change eye color/place aura)
-            
-            // Blink Screen White
-            g2d.setColor(Color.white);
+            Thread.sleep(400L);                         // Delay .4ms
+         
+            g2d.setColor(Color.white);                  // White Screen Flash
             g2d.fillRect(0,0,850,510);
 
-            Thread.sleep(150L);
-
+            Thread.sleep(150L);                         // Delay .150ms
+            
+            // Reset (no animation/change eye color/placed outline
             g2d.setColor(new Color(65,65,65));
             g2d.fillRect(0,0,850,510);
 
-            g2d.setColor(new Color(255, 91,0));         // Bright Orange
+            g2d.setColor(new Color(255, 91,0));         // Placed a Bright Orange Outline
             g2d.fill(aura);
 
             g2d.setColor(new Color(93,137,86));
@@ -922,8 +920,8 @@ public class Parayno_Cartoon extends JFrame
             g2d.setColor(new Color(253,253,253));
             g2d.fillOval(371,151,19,23);
             
-            g2d.setColor(new Color(255, 91,0));
-            g2d.fill(rIris);
+            g2d.setColor(new Color(255, 91,0));     // Changed to Bright Orange
+            g2d.fill(rIris);        
 
             g2d.setColor(new Color(253,253,253));
             g2d.fillOval(488,108,78,89);
@@ -951,8 +949,8 @@ public class Parayno_Cartoon extends JFrame
             g2d.fillOval(495,129,21,21);
         
             // Color Change
-            g2d.setColor(new Color(255, 91,0)); 
-            g2d.fill(lIris);   
+            g2d.setColor(new Color(255, 91,0));     // Changed to Bright Orange
+            g2d.fill(lIris);                        
 
             g2d.setColor(new Color(251,228,197));
             g2d.fill(lHand);
