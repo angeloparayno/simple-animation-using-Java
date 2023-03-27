@@ -8,4 +8,4 @@
 ![](https://github.com/angeloparayno/simple-animation-using-Java/blob/main/Sample%20Output.png)
 ---
 * Created: 2015
-* Updated: 03/2023
+* Last Updated: 03/2023
