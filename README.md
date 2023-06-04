@@ -6,5 +6,4 @@
 ---
 #### Sample Output: (*run source file / view the preview link / click the image - to see animation*)
 [![](https://github.com/angeloparayno/simple-animation-using-Java/blob/main/Sample%20Output.png)](https://www.linkedin.com/posts/angeloparayno_old-project-from-my-treasure-box-simple-activity-7045579453598486528-422q?utm_source=share&utm_medium=member_desktop)
----
-* Last Updated: 03/2023
+
